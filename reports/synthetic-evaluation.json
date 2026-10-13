@@ -1,0 +1,268 @@
+{
+  "model": "SqueezeNet1_1 IMAGENET1K_V1, features[:6]",
+  "score_definition": "99th percentile nearest L2-normalized normal-patch Euclidean distance",
+  "reference_count": 12,
+  "reference_hashes": [
+    "52aadc9c35d0c05f1c658e5c1539894112e5ed0dab16bed2251602f8e6826d5f",
+    "29d9b193b960c1542d59613a1c5d9dfd5cdb304f3f83d0bb418e129204d848b6",
+    "33b54593aa61720968068542857d8a23f8906b82c188fd77be6da80f7cbf99b5",
+    "b2b2ebef8fd70013939080ebf7066ad00e50c8bcc7833616b5049c7afad21e68",
+    "81173e4c26e702d6be34e47d19a819e244de4d605aee2d1aa751c5717538b7da",
+    "bdca0b796d3fd2e2044f7208e67503b84c6545cb8e4e2782428215d9450ac363",
+    "d3f28fa246e421b22a0623fe4cd546a77ff481818dba8d1b7754da0d284da459",
+    "4d51772e188899ab5c47c0f628671e8e572ca1c9c981b79315b6fdf26e744431",
+    "9d0ac5885d97bc48b269de461c7ff33a225f5de86a5ee22a4098e82cfb99405f",
+    "ad266308a8366cd71dc161f66cdd78ed5350c7a57a51cc42a1d34a55e4d03bef",
+    "60528505396ebe7e86d1717cfdd0476f86542c30ed67cf071f56dce3d5e7cd3c",
+    "fc2014abc15c23005885eecf3570b59c39363ee668875f22ac045cd791070795"
+  ],
+  "bank_patches": 2048,
+  "metrics": {
+    "auroc": 1.0,
+    "average_precision": 1.0
+  },
+  "elapsed_seconds_excluding_model_load": 1.638669713000013,
+  "results": [
+    {
+      "name": "defect_23.png",
+      "sha256_pixels": "9264a7983c0c45c8db4d8b82acf1ca0422efec2c081ed58af433af3cb54622d2",
+      "score": 0.5061955451965332,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_19.png",
+      "sha256_pixels": "762f01ddfe5dab8c97ec076e1dd0fe411ae2eb0d76d937b973d82f017da8e642",
+      "score": 0.5026161670684814,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_13.png",
+      "sha256_pixels": "c5f5eba77eb6a6561061c626d257475974a989ce0266436b650f3d788bc72869",
+      "score": 0.4934002757072449,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_22.png",
+      "sha256_pixels": "461d8d51ac9b13a4f1819eb6a21133f77f3e8dda739a7a035f7940de62906a46",
+      "score": 0.4851035475730896,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_12.png",
+      "sha256_pixels": "5f42b6f1f858dbb5c28e7f90606db249000e0ec963acb78dd369f079c281fd27",
+      "score": 0.48132795095443726,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_20.png",
+      "sha256_pixels": "de4b99f6a354c28573f79e10a8410cf28138294a7137015dbf4a0495bb3a408c",
+      "score": 0.48099857568740845,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_17.png",
+      "sha256_pixels": "c85f68fbb8291eb20ddeb3926e6249f27e889aa5a59866d87be21450801c2dbf",
+      "score": 0.4797166585922241,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_14.png",
+      "sha256_pixels": "1883cff4c8270690f76c2409835a7a585337a238ec78002bfd137d06a893ac6e",
+      "score": 0.47638896107673645,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_21.png",
+      "sha256_pixels": "0cf9b3b11f1d9958d2d14939ef4ab513309b4aa6f018e52535234035d62897dc",
+      "score": 0.47609075903892517,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_15.png",
+      "sha256_pixels": "9434f7b0847523c1f60990881a0bce1c3a03b08460cc1561e2b07d04eae769ac",
+      "score": 0.4633130431175232,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_18.png",
+      "sha256_pixels": "d921284f70a6aa73ffe89b56ad73494442dfcc6847105413da71920e4e15033b",
+      "score": 0.4620361030101776,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "defect_16.png",
+      "sha256_pixels": "ea3be6976e157ec2ef66be9cdeaf74d09800d0681513c22bccb6ad5a481522ca",
+      "score": 0.44666528701782227,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 1
+    },
+    {
+      "name": "normal_03.png",
+      "sha256_pixels": "48593b81f26f569715486d70c1afce939404ff1dce505c293381820c08df8e42",
+      "score": 0.39256465435028076,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_07.png",
+      "sha256_pixels": "f64fab40e143971eb6fa739b608954185869820fab424ed8736ddf6f66f7c71c",
+      "score": 0.3920685350894928,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_08.png",
+      "sha256_pixels": "32678ea1b421eab28d3a69293b26bd8c10923de4650bbf588571ea7678d044ab",
+      "score": 0.38913723826408386,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_04.png",
+      "sha256_pixels": "6f7fa909c58d50e03721c5e48e3e9f17b0065b9b969de6a994a9afa8ee3f225b",
+      "score": 0.3830680549144745,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_06.png",
+      "sha256_pixels": "fa95588d56cecad25d306c0255f67ae98df66e030063e0063b075a1456dd06f6",
+      "score": 0.37998712062835693,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_11.png",
+      "sha256_pixels": "931bdf2efc32183b804565a299b9cd56f7ff1658820d901dee16cbd9ac666c34",
+      "score": 0.37283843755722046,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_10.png",
+      "sha256_pixels": "4de0cd2f0faff34cfdce46d5056b79c5a5aa518e4a88d7a4487762d87ac66784",
+      "score": 0.369223952293396,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_02.png",
+      "sha256_pixels": "90cca1977514f54f6443bf58099c9ee34a86f32cb9f87a378798f9b538c44b03",
+      "score": 0.3671083450317383,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_05.png",
+      "sha256_pixels": "9247beb7029ea96df8686ba34641701f86deedd0be7572ffedc899d2faa21165",
+      "score": 0.3647018373012543,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_09.png",
+      "sha256_pixels": "cfa8283aa549d193e6831a3bbd685b2e88a827f109113bcfb0fee86b954fef70",
+      "score": 0.3596615791320801,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_00.png",
+      "sha256_pixels": "92597e5d25644de1d0375a6084b639962f05e57517ebfc976255ccd00faab53d",
+      "score": 0.35380738973617554,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    },
+    {
+      "name": "normal_01.png",
+      "sha256_pixels": "71cbaf8694ce81e7f4900176eb6c85dc08d1050f18950e59c59394698bbca1d7",
+      "score": 0.35059037804603577,
+      "patch_shape": [
+        27,
+        27
+      ],
+      "label": 0
+    }
+  ],
+  "synthetic_sample": true
+}
